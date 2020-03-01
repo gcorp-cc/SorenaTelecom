@@ -1,0 +1,242 @@
+/* fallback */
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/material.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'JosefinSans-Regular';
+    src: url('../fonts/JosefinSans-Regular.eot');
+    src: url('../fonts/JosefinSans-Regular.woff') format('woff'),
+        url('../fonts/JosefinSans-Regular.ttf') format('truetype'),
+        url('../fonts/JosefinSans-Regular.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('../fonts/Vazir.eot');
+    src: url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vazir.woff2') format('woff2'),
+        url('../fonts/Vazir.woff') format('woff'),
+        url('../fonts/Vazir.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BYekan';
+    src: url('../fonts/BYekan.eot') format('eot'),
+        /* IE6–8 */
+        url('../fonts/BYekan.woff') format('woff'),
+        /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+        url('../fonts/BYekan.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'PinyonScript';
+    src: url('../fonts/PinyonScript-Regular.eot');
+    src: url('../fonts/PinyonScript.woff') format('woff'),
+        url('../fonts/PinyonScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DimaShekastehFree';
+    src: url('../fonts/DimaShekasteh.eot');
+    src: url('../fonts/DimaShekastehFree.woff') format('woff'),
+        url('../fonts/DimaShekastehFree.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+:root {
+    font-family: 'Vazir', 'JosefinSans-Regular';
+    direction: rtl;
+}
+
+.body {
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+}
+
+.font-enArt {
+    font-family: 'PinyonScript';
+}
+
+.font-faArt {
+    font-family: 'DimaShekastehFree';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'JosefinSans-Regular', 'BYekan';
+}
+
+/*Scroll vertical*/
+.scroll-v {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: auto;
+}
+
+.scroll-v::-webkit-scrollbar {
+    width: 12px;
+}
+
+.scroll-v::-webkit-scrollbar-thumb {
+    box-shadow: 3px 3px 15px #4d4d50;
+    border-radius: 10px;
+    background-color: #0f96f0ea;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, .2) 50%,
+            rgba(255, 255, 255, .2) 75%,
+            transparent 75%,
+            transparent)
+}
+
+.scroll-v::-webkit-scrollbar-track {
+
+    border-radius: 10px;
+    box-shadow: 3px 3px 17px rgba(62, 94, 238, 0.8);
+    background-color: #f2f5f8;
+}
+
+
+/**  Scroll Horizintal */
+.scroll-h {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    overflow: auto;
+
+}
+
+.scroll-h::-webkit-scrollbar {
+    height: 12px;
+}
+
+.scroll-h::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #face0c;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%,
+            transparent 25%,
+            transparent 50%,
+            rgba(255, 255, 255, .2) 50%,
+            rgba(255, 255, 255, .2) 75%,
+            transparent 75%,
+            transparent)
+}
+
+.scroll-h::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #f2f5f8;
+}
+
+.text-shadow {
+    text-shadow: rgb(113, 111, 119) 3px 3px 7px;
+}
+
+.border-radios {
+    border-radius: 5px;
+    box-shadow: 3px 3px 17px rgba(29, 29, 31, 0.36);
+}
+
+.navcolor {
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, rgb(28, 108, 165) 100%);
+}
+
+.slidecolor {
+    background-image: linear-gradient(135deg, rgb(76, 172, 236) 10%, #5151E5 100%);
+}
+
+.slidecolor li a {
+    color: #fff;
+    text-align: center;
+    text-shadow: 3px 3px 17px rgba(29, 29, 31, 0.36);
+}
+
+.slides li {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+}
+
+#dropdown1 {
+    border-radius: 5px;
+    top: -15px;
+}
+
+#dropdown1 li:hover {
+    background: rgba(20, 120, 214, 0.349);
+}
+
+#dropdown2 {
+    border-radius: 5px;
+}
+
+#dropdown2 li:hover {
+    background: rgba(20, 120, 214, 0.349);
+}
+
+.div-line {
+    background: rgba(181, 200, 218, 0.295);
+    width: 100%;
+    padding: 25px;
+}
+
+.nav-gradiant {
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #228dff 100%);
+}
+
+.subject {
+    padding: 75px 5px;
+    background: #eee;
+}
+
+.p-5 {
+    padding: 5px
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.menuServer {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+}
+.align-justify{
+    text-align: justify;
+}
+.gradiant-blue{
+    background-image: linear-gradient(to right top, #cb1756, #d20e63, #d80570, #dd017f, #e1038e, #e50089, #e90085, #ed0080, #ee0066, #ea154d, #e22a34, #d63b1a);
+}
